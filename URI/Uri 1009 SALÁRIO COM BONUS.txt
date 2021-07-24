@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+char VENDEDOR;	
+double A,B;
+ 
+int main() {
+
+	scanf("%s%lf%lf", &VENDEDOR, &A, &B);
+	
+	double FINAL = B * (15/100);  
+
+	printf("TOTAL = R$ %.2lf\n", FINAL);		
+	
+	
+    return 0;
+}

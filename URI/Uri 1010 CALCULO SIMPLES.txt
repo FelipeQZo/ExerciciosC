@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int CODX, NUMX, CODY, NUMY;
+double VALX, VALY;
+
+int main() {
+	
+	scanf("%d%d%lf", CODX, NUMX, VALX);
+	scanf("%d%d%lf", CODY, NUMY, VALY);
+
+	double CONTA = (NUMX * VALX) + (NUMY * VALY);
+
+	printf("VALOR A PAGAR: R$ %lf \n", CONTA);
+	
+    return 0;
+}
